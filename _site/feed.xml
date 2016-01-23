@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator><link href="http://maintainablecode.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://maintainablecode.com/" rel="alternate" type="text/html" /><updated>2016-01-23T13:08:58+01:00</updated><id>http://maintainablecode.com/</id><title>Maintainable Code</title><subtitle>In search of</subtitle><entry><title>Why Maintainable Code?</title><link href="http://maintainablecode.com/Why-Maintainable-Code/" rel="alternate" type="text/html" title="Why Maintainable Code?" /><published>2016-01-22T00:00:00+01:00</published><updated>2016-01-22T00:00:00+01:00</updated><id>http://maintainablecode.com/Why-Maintainable-Code</id><content type="html" xml:base="http://maintainablecode.com/Why-Maintainable-Code/">&lt;p&gt;&lt;em&gt;Striving for maintainable code is pretty much the only worthwhile endeavour in our industry.&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator><link href="http://maintainablecode.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://maintainablecode.com/" rel="alternate" type="text/html" /><updated>2016-01-23T13:13:55+01:00</updated><id>http://maintainablecode.com/</id><title>Maintainable Code</title><subtitle>In search of</subtitle><entry><title>Why Maintainable Code?</title><link href="http://maintainablecode.com/Why-Maintainable-Code/" rel="alternate" type="text/html" title="Why Maintainable Code?" /><published>2016-01-22T00:00:00+01:00</published><updated>2016-01-22T00:00:00+01:00</updated><id>http://maintainablecode.com/Why-Maintainable-Code</id><content type="html" xml:base="http://maintainablecode.com/Why-Maintainable-Code/">&lt;p&gt;&lt;em&gt;Striving for maintainable code is pretty much the only worthwhile endeavour in our industry.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Every day, new tools, frameworks and libraries are released and blogged about. Most of them
 promise to increase productivity and reduce complexity. Most deliver as promised in the short run,
 but very few have a substantial impact in the long run. And, after all, it is the long run
-that is really interesting. Thus, them main subject of this blog is not about new 
+that is really interesting. Hence, the main subject of this blog is not new 
 frameworks, programming languages, libraries or the like.&lt;/p&gt;
+
+&lt;p&gt;In my experience, the only thing that increases productivity and reduces complexity in the long run 
+is writing maintainable code. Every day. All the time. That is what this blog is about.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;quot;We have to keep it crisp, disentangled, and simple if we refuse to be crushed by the complexities of our own making&amp;quot; - Dijkstra&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the long run, the only thing that increases productivity and reduces complexity is writing
-maintainable code. Every day. All the time. That is what this blog is about.&lt;/p&gt;</content><summary>Striving for maintainable code is pretty much the only worthwhile endeavour in our industry.</summary></entry></feed>
+&lt;/blockquote&gt;</content><summary>Striving for maintainable code is pretty much the only worthwhile endeavour in our industry.</summary></entry></feed>
