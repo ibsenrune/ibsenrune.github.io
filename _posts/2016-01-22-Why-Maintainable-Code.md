@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: post
 title: Why Maintainable Code?
 ---
 
-# Why Maintainable Code?
 _Striving for maintainable code is pretty much the only worthwhile endeavour in our industry._
 
 
