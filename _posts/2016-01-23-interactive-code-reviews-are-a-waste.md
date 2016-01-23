@@ -5,7 +5,7 @@ title: Interactive code reviews are a waste
 
 Code reviews have been around at least since the late '70s. These days, most software development teams worth their salt do code reviews. However, not all code reviews were created equal, and one particularly prevalent type is worthless at best.
 
-The type of code review I have seen the most is what I like to call the "interactive" code review. Here, the author and the reviewer sit down together to go through the code. If they are co-located, the review will often take place at the reviewer's desk. Otherwise, it might be facilitated by video conferencing software. While this is typically a speedy process, the interactive code review process has a number of drawbacks, that I would like to highlight:
+The type of code review I have seen the most is what I like to call the "interactive" code review. Here, the author and the reviewer sit down together to go through the code. If they are co-located, the review will often take place at the author's desk. Otherwise, it might be facilitated by video conferencing software. While this is typically a speedy process, the interactive code review process has a number of drawbacks, that I would like to highlight:
 
 #### The author tends to take the driver's seat
 When the reviwer and the author sit together, the author tends to take the driver's seat, guiding the reviewer through the code. This often happens because the author is eager to show off his work or because he has been toiling with this task for a while and is aching to close it and move on. 
@@ -31,18 +31,18 @@ Despite this, having to interrupt a colleague for a code review seems like a hig
 
 ## Code reviews done right
 
-So, how do we do code reviews more efficiently? Well, what would you do if you were the author and the matter to review was a quote for a client or a piece of prose? You would let the reviewer read the prose in silence and in his own time. After all, what you are after is his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?
+So, how do we do code reviews more efficiently? Well, what would you do if the matter to review was a quote for a client, or a piece of prose, and you were the author? You would let the reviewer read the prose in silence and in his own time. After all, what you are after is his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?
 
 This leads us to the conclusion that efficient code reviews should
 
 - be left solely to the reviewer.
 - be done asynchronously.
 
-Allowing the reviewer to do the review in his own time means that he can pick up the work when it suits him and he can take the time he needs for a thorough review. It also means that having multiple reviewers becomes much more feasible. 
+Allowing the reviewer to do the review in his own time means that he can pick up the work when it suits him, and he can take the time he needs for a thorough review. It also means that having multiple reviewers becomes much more feasible. 
 
-The experience of a reviewer doing a review in isolation is comparable to that of a developer who later has to pick up the code to make changes. Thus, this is a good test for whether the code is actually maintainable. Moreover, since the reviewer will have to communicate with the author in writing, any questions raised or decisions reached during the review will be documented for future reference.
+The experience of a reviewer doing a review in isolation is comparable to that of a developer, who later has to pick up the code to make changes. Thus, this is a good test for whether the code is actually maintainable. Moreover, since the reviewer will have to communicate with the author in writing, any questions raised or decisions reached during the review will be documented for future reference.
 
-Most version control services provide some mechanism for reviewing code in this manner. Stash, Bitbucket and Github all provide excellent tools for reviewing pull requests in this manner. Even if you are not using any of these services, you still have [lots of options](https://en.wikipedia.org/wiki/List_of_tools_for_code_review).
+Most version control services provide some mechanism for reviewing code in this manner. Bitbucket and Github both provide excellent tools for reviewing pull requests in this manner. Even if you are not using one of these services, you still have [lots of options](https://en.wikipedia.org/wiki/List_of_tools_for_code_review).
 
 ## Conclusion
-Avoid the interactive code reviews. They are, at best, a waste of time. To be efficient, code reviews must carried out on the reviewer's terms.
+Avoid the interactive code reviews. They are, at best, a waste of time. To be effective, code reviews must be carried out on the reviewer's terms.

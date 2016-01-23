@@ -34,24 +34,11 @@
         <section id="main_content">
             
     <h1>
-      <a href="/on-the-result-of-code-reviews/">On the result of code reviews</a>
-    </h1>
-    <p>Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.</p>
-
-<hr>
-
-<p>Outline:
-The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
-the cheapest way to remove bugs is not to put them in  in the first place.
-Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.</p>
-
-  
-    <h1>
       <a href="/interactive-code-reviews-are-a-waste/">Interactive code reviews are a waste</a>
     </h1>
     <p>Code reviews have been around at least since the late &#39;70s. These days, most software development teams worth their salt do code reviews. However, not all code reviews were created equal, and one particularly prevalent type is worthless at best.</p>
 
-<p>The type of code review I have seen the most is what I like to call the &quot;interactive&quot; code review. Here, the author and the reviewer sit down together to go through the code. If they are co-located, the review will often take place at the reviewer&#39;s desk. Otherwise, it might be facilitated by video conferencing software. While this is typically a speedy process, the interactive code review process has a number of drawbacks, that I would like to highlight:</p>
+<p>The type of code review I have seen the most is what I like to call the &quot;interactive&quot; code review. Here, the author and the reviewer sit down together to go through the code. If they are co-located, the review will often take place at the author&#39;s desk. Otherwise, it might be facilitated by video conferencing software. While this is typically a speedy process, the interactive code review process has a number of drawbacks, that I would like to highlight:</p>
 
 <h4 id="the-author-tends-to-take-the-driver-39-s-seat">The author tends to take the driver&#39;s seat</h4>
 
@@ -83,7 +70,7 @@ Now, this means that when teams evaluate the benefits of code reviews versus the
 
 <h2 id="code-reviews-done-right">Code reviews done right</h2>
 
-<p>So, how do we do code reviews more efficiently? Well, what would you do if you were the author and the matter to review was a quote for a client or a piece of prose? You would let the reviewer read the prose in silence and in his own time. After all, what you are after is his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?</p>
+<p>So, how do we do code reviews more efficiently? Well, what would you do if the matter to review was a quote for a client, or a piece of prose, and you were the author? You would let the reviewer read the prose in silence and in his own time. After all, what you are after is his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?</p>
 
 <p>This leads us to the conclusion that efficient code reviews should</p>
 
@@ -92,16 +79,17 @@ Now, this means that when teams evaluate the benefits of code reviews versus the
 <li>be done asynchronously.</li>
 </ul>
 
-<p>Allowing the reviewer to do the review in his own time means that he can pick up the work when it suits him and he can take the time he needs for a thorough review. It also means that having multiple reviewers becomes much more feasible. </p>
+<p>Allowing the reviewer to do the review in his own time means that he can pick up the work when it suits him, and he can take the time he needs for a thorough review. It also means that having multiple reviewers becomes much more feasible. </p>
 
-<p>The experience of a reviewer doing a review in isolation is comparable to that of a developer who later has to pick up the code to make changes. Thus, this is a good test for whether the code is actually maintainable. Moreover, since the reviewer will have to communicate with the author in writing, any questions raised or decisions reached during the review will be documented for future reference.</p>
+<p>The experience of a reviewer doing a review in isolation is comparable to that of a developer, who later has to pick up the code to make changes. Thus, this is a good test for whether the code is actually maintainable. Moreover, since the reviewer will have to communicate with the author in writing, any questions raised or decisions reached during the review will be documented for future reference.</p>
 
-<p>Most version control services provide some mechanism for reviewing code in this manner. Stash, Bitbucket and Github all provide excellent tools for reviewing pull requests in this manner. Even if you are not using any of these services, you still have <a href="https://en.wikipedia.org/wiki/List_of_tools_for_code_review">lots of options</a>.</p>
+<p>Most version control services provide some mechanism for reviewing code in this manner. Bitbucket and Github both provide excellent tools for reviewing pull requests in this manner. Even if you are not using one of these services, you still have <a href="https://en.wikipedia.org/wiki/List_of_tools_for_code_review">lots of options</a>.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Avoid the interactive code reviews. They are, at best, a waste of time. To be efficient, code reviews must carried out on the reviewer&#39;s terms.</p>
+<p>Avoid the interactive code reviews. They are, at best, a waste of time. To be effective, code reviews must be carried out on the reviewer&#39;s terms.</p>
 
+    <hr />
   
     <h1>
       <a href="/Why-Maintainable-Code/">Why Maintainable Code?</a>
@@ -122,6 +110,7 @@ Now, this means that when teams evaluate the benefits of code reviews versus the
 
 <p>Hence, Maintainable Code.</p>
 
+    <hr />
   
 
 
