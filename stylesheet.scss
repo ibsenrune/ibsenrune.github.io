@@ -77,8 +77,22 @@ article{
 }
 
 header {
-  padding-top: 35px;
-  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+header #title{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+}
+
+header #profile{
+  background-image: url(assets/rui-round.png);
+  background-size: contain;
+  float: right;
+  height: 96px;
+  width: 96px;
 }
 
 header h1 {
@@ -371,6 +385,9 @@ footer i {
   header {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  header #profile {
+    display: none;
   }
   #downloads {
     margin-bottom: 25px;
