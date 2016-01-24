@@ -31,7 +31,7 @@ Despite this, having to interrupt a colleague for a code review seems like a hig
 
 ## Code reviews done right
 
-So, how do we do code reviews more efficiently? Well, what would you do if the matter to review was a quote for a client, or a piece of prose, and you were the author? You would let the reviewer read the prose in silence and in his own time. After all, what you are after is his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?
+So, how do we do code reviews more efficiently? Well, you can ask yourself: what would you do, if the matter to review was a quote for a client, or a piece of prose, and you were the author? I bet you would let the reviewer read the prose in silence and in his own time. After all, what you are after is his experience reading it,  his assesment of your work. Is it a pleasant read? Is it easily understandable? Is it correct?
 
 This leads us to the conclusion that efficient code reviews should
 
