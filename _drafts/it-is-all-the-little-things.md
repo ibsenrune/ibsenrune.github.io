@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code quality will save your architecture
+title: It's the little things
 tags: out of the tar pit
 ---
 

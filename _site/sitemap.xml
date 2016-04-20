@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://maintainablecode.com/proper-value-objects-reduce-cognitive-load/</loc>
+    <lastmod>2016-02-11T08:36:47+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
+    <lastmod>2016-02-11T08:36:47+01:00</lastmod>
+  </url>
+  <url>
     <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
     <lastmod>2016-01-23T00:00:00+01:00</lastmod>
   </url>
@@ -16,5 +24,11 @@
     </url>
     <url>
       <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
+    </url>
+    <url>
+      <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
+    </url>
+    <url>
+      <loc>http://maintainablecode.com/proper-value-objects-reduce-cognitive-load/</loc>
     </url>
 </urlset>

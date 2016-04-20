@@ -39,6 +39,87 @@
             
   <article>
     <h1>
+      <a href="/proper-value-objects-reduce-cognitive-load/">Code quality will save your architecture</a>
+    </h1>
+    <p><em>Low level code quality matters way more than your architectural style. When your code base is turning into an alienated stranger, an unmaintainable pulp, and you are itching to rewrite the whole thing, stop. Salvation may be much closer and less risky than you think</em>. </p>
+
+<p>Have you ever had the feeling that, after toiling with a code base for 6-12 months, the code base has not turned into the beautiful thing you set out to build? You had the best intentions and swore that <em>this time</em>, it was going to be different. Still, as you look at the code base now, it has scars and warts. You are no longer confident when making changes - heck, maybe you don&#39;t even really trust the code base. And every time you touch a piece of it, you think &quot;this thing really needs to be refactored&quot;.</p>
+
+<p>So, you take the plunge. You start rewriting the whole thing. You put in long hours. You are spewing code, and you are one with the code. You change the architecture to the latest fad. You upgrade all your tools, frameworks, and libraries. For a while, you love the code again, and it loves you. </p>
+
+<p>You know what is coming, don&#39;t you? </p>
+
+<p>After a while, you start to have doubts. You have had to make a few compromises. The code is becoming harder to understand than you had anticipated. Maybe the architectural style you chose doesn&#39;t fit your application as well as you had been lead to believe? Changes are taking longer and longer because the code is becoming an entangled, brittle mess. Again. You are back where you started.</p>
+
+<p>So, what happened? How could it have come to this?</p>
+
+<p>You changed the tools, you changed the frameworks, and you changed the libraries. You changed the architecture. You probably introduced more automated tests. Maybe you even changed the programming language. What is left? You.</p>
+
+<p>What you probably did not change is the way you write code. You did not change the level of attention you pay to detail. You did not become more critical of your own code.</p>
+
+<p>Yet, this is exactly what is needed. </p>
+
+<p>Unless your initial choice of programming language was <a href="https://en.wikipedia.org/wiki/Brainfuck">brainfuck</a>, chances are that others have had great success with this language. Your pick of tools, frameworks and libraries were probably fine. Your architectural style is overrated. You can do a <a href="https://en.wikipedia.org/wiki/Multilayered_architecture">Multilayered Architecture</a>, a <a href="https://vimeo.com/131633177">Sliced Architecture</a>, a <a href="http://alistair.cockburn.us/Hexagonal+architecture">Hexagonal Architecture</a>, or an <a href="http://jeffreypalermo.com/blog/the-onion-architecture-part-1/">Onion Architecture</a>.</p>
+
+<p>It all doesn&#39;t matter one iota if you do not pay attention to the individual characters on your screen that make up your code. You must care for your code blocks, just like an author cares for and nurtures the sentences he produces.</p>
+
+<blockquote>
+<p>&quot;We have to keep it crisp, disentangled, and simple if we refuse to be crushed by the complexities of our own making&quot; - Dijkstra</p>
+</blockquote>
+
+<p>Does your code suffer from any of these code smells:</p>
+
+<ul>
+<li>objects are mutable for no good reason.</li>
+<li>the most prevalent data types in use are integers and strings (<a href="http://c2.com/cgi/wiki?PrimitiveObsession">primitive obsession</a>).</li>
+<li>objects that represent a value (a point, an address, a score) have reference equality semantics.</li>
+<li>some methods consider <code>null</code> a valid argument while others do not.</li>
+<li>naming is sloppy and inconsistent.</li>
+<li>formatting is sloppy and inconsistent.</li>
+</ul>
+
+<p>The effect of each of these code smells may seem benign. Heck, what does it matter if that <code>Address</code> type is just a bunch of public getters and setters? What does it matter if we use <code>string</code> to represent an order reference number? That code block is not properly indented. So what?</p>
+
+<p>Well, every time you introduce (or neglect to remove) one of these code smells, you are putting more <a href="https://en.wikipedia.org/wiki/Cognitive_load">cognitive load</a> on the Code Reader. The compounding effect of all these little things can be enormous. Even if <em>you</em> know that the code is working perfectly, the <em>Code Reader</em> (who might, after all, be you in a couple of weeks) will be spending precious mental resources wondering whether some distant part of the program could possibly change the value of that <code>Address</code>, or whether that order reference number could, in some obscure scenario, be <code>null</code> and if that is a valid value.</p>
+
+<p>By fixing these code smells, you free up mental resources. You will be able to keep larger portions of the code in your mind at one time. As a consequence, you will start having more confidence in the code and implementing changes and solving problems will require much less effort.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>Before you decide that your code base needs fundamental rewriting and that your tools and architecture need to be killed off, take a long, hard look at the low level quality of your code. You may very well be able to get back to a crisp, disentangled, and simple code base just by rectifying the quality of your code at the very low level. There is no demand to pause development. Rectifying the code from the ground up can be done in small, incremental steps while stile fixing bugs and delivering new features. In fact, improving your code base from the ground up should be part of your daily routine.</p>
+
+  </article>
+  
+  <article>
+    <h1>
+      <a href="/on-the-result-of-code-reviews/">On the result of code reviews</a>
+    </h1>
+    <p><em>Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.</em></p>
+
+<p>Code reviews have a long history in our industry. I think this stems from the old mantra &quot;the cheapest way to remove bugs is to not put them in in the first place.&quot; One way of removing bugs before they are put into  them into our software is to do code reviews. </p>
+
+<p>So, you would think that code reviews were an established part of our craft and that everybody did them. You would think that code reviews were taught at universities. Yet, they are not. Code reviews are not taught at universities, and many teams do not do code reviews.</p>
+
+<p>This is because the number of bugs found by code reviews does not retfærdiggøre the substantial effort that goes into doing proper code reviews. Teams may try out code reviews for a while, but when they pause to evaluate and think about the number of bugs found in, they are likely conclude that code reviews are too costly. And they are probably right.</p>
+
+<p>Doing code reviews to remove bugs is a fallacy! Research by Microsoft shows, that only 15% of review comments pertain to possible bugs in the code.</p>
+
+<p>However, my experience shows that this is not the case at all. 
+They used to be called formal inspections and consist of a large number of people sitting in a meeting reviewing code. These days, code reviews are typically more light weight. </p>
+
+<p>Outline:
+The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
+the cheapest way to remove bugs is not to put them in  in the first place.
+Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.</p>
+
+<p>Code reviews do not find bugs. Thus, they are not worth teaching in universities, where students do not maintain code over extended periods of time.</p>
+
+<p>Sell code reviews!</p>
+
+  </article>
+  
+  <article>
+    <h1>
       <a href="/interactive-code-reviews-are-a-waste/">Interactive code reviews are a waste</a>
     </h1>
     <p>Code reviews have been around at least since the late &#39;70s. These days, most software development teams worth their salt do code reviews. However, not all code reviews were created equal, and one particularly prevalent type is worthless at best.</p>
