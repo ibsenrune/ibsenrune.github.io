@@ -16,4 +16,4 @@ Challenges:
 
 
 
-May want to see https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp as well.
+May want to see this as well: https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp .

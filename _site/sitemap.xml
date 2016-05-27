@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://maintainablecode.com/proper-value-objects-reduce-cognitive-load/</loc>
-    <lastmod>2016-02-11T08:36:47+01:00</lastmod>
+    <loc>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/</loc>
+    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://maintainablecode.com/value-objects-reduce-cognitive-load/</loc>
+    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
   </url>
   <url>
     <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
-    <lastmod>2016-02-11T08:36:47+01:00</lastmod>
+    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://maintainablecode.com/it-is-all-the-little-things/</loc>
+    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://maintainablecode.com/adopting-fsharp-in-an-enterprise/</loc>
+    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
   </url>
   <url>
     <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
@@ -26,9 +38,18 @@
       <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
     </url>
     <url>
+      <loc>http://maintainablecode.com/adopting-fsharp-in-an-enterprise/</loc>
+    </url>
+    <url>
+      <loc>http://maintainablecode.com/it-is-all-the-little-things/</loc>
+    </url>
+    <url>
       <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
     </url>
     <url>
-      <loc>http://maintainablecode.com/proper-value-objects-reduce-cognitive-load/</loc>
+      <loc>http://maintainablecode.com/value-objects-reduce-cognitive-load/</loc>
+    </url>
+    <url>
+      <loc>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/</loc>
     </url>
 </urlset>
