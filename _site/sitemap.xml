@@ -1,55 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/</loc>
-    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/value-objects-reduce-cognitive-load/</loc>
-    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
-    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/it-is-all-the-little-things/</loc>
-    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/adopting-fsharp-in-an-enterprise/</loc>
-    <lastmod>2016-04-21T16:33:29+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
-    <lastmod>2016-01-23T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/Why-Maintainable-Code/</loc>
-    <lastmod>2016-01-22T00:00:00+01:00</lastmod>
-  </url>
-  <url>
-    <loc>http://maintainablecode.com/</loc>
-  </url>
-    <url>
-      <loc>http://maintainablecode.com/Why-Maintainable-Code/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/adopting-fsharp-in-an-enterprise/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/it-is-all-the-little-things/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/value-objects-reduce-cognitive-load/</loc>
-    </url>
-    <url>
-      <loc>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/</loc>
-    </url>
+<url>
+<loc>http://maintainablecode.com/reduce-cognitive-load-1-value-equality-semantics/</loc>
+<lastmod>2016-09-08T08:07:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/reduce-cognitive-load-3-no-nulls/</loc>
+<lastmod>2016-09-08T08:03:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/reduce-cognitive-load-2-immutability/</loc>
+<lastmod>2016-09-08T08:03:38+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/a-searchable-link-collection-for-code-reviews/</loc>
+<lastmod>2016-06-08T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/</loc>
+<lastmod>2016-04-24T20:15:20+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/adopting-fsharp-in-an-enterprise/</loc>
+<lastmod>2016-04-20T21:07:31+02:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/it-is-all-the-little-things/</loc>
+<lastmod>2016-02-12T20:45:40+01:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/on-the-result-of-code-reviews/</loc>
+<lastmod>2016-02-11T08:46:24+01:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/interactive-code-reviews-are-a-waste/</loc>
+<lastmod>2016-01-23T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/Why-Maintainable-Code/</loc>
+<lastmod>2016-01-22T00:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://maintainablecode.com/</loc>
+</url>
 </urlset>

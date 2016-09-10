@@ -12,6 +12,16 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>Maintainable Code – Maintainable Code – In search of</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-78424063-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
   </head>
 
   <body>
@@ -37,6 +47,52 @@
 
         <section id="main_content">
             
+  <article>
+    <h1>
+      <a href="/reduce-cognitive-load-1-value-equality-semantics/"></a>
+    </h1>
+    
+  </article>
+  
+  <article>
+    <h1>
+      <a href="/reduce-cognitive-load-3-no-nulls/"></a>
+    </h1>
+    <p>Value equality</p>
+
+<p>Immutability</p>
+
+<p>No nulls</p>
+
+  </article>
+  
+  <article>
+    <h1>
+      <a href="/reduce-cognitive-load-2-immutability/"></a>
+    </h1>
+    <p>Value equality</p>
+
+<p>Immutability</p>
+
+<p>No nulls</p>
+
+  </article>
+  
+  <article>
+    <h1>
+      <a href="/a-searchable-link-collection-for-code-reviews/">A searchable link collection for code reviews</a>
+    </h1>
+    <p>When doing code reviews I find myself referring to a lot of &quot;authoritative&quot; sources for 
+information on design patterns, principles, practices, code smells, etc. To avoid having 
+to paraphrase these sources in my code reviews, I provide links straight to the source itself.</p>
+
+<p>Looking up these sources takes time and requires a mental context switch during the code review. 
+To alleviate this I use a searchable collection of links: <a href="http://review.maintainablecode.com">http://review.maintainablecode.com</a>.</p>
+
+<p>Feel free to send me a link if you would like to have something added to the collection.</p>
+
+  </article>
+  
   <article>
     <h1>
       <a href="/values-principles-and-practices-of-maintainable-code/">Rallying the team</a>
@@ -94,37 +150,23 @@ Values can and should be discussed and defined in cooperation with the business.
   
   <article>
     <h1>
-      <a href="/value-objects-reduce-cognitive-load/">Value objects reduce cognitive load</a>
+      <a href="/adopting-fsharp-in-an-enterprise/">Adopting F# in the enterprise</a>
     </h1>
-    <p>I read an article once about how much information is inerrable from the type of a function??</p>
+    <p>Challenges:</p>
 
-  </article>
-  
-  <article>
-    <h1>
-      <a href="/on-the-result-of-code-reviews/">On the result of code reviews</a>
-    </h1>
-    <p><em>Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.</em></p>
+<ul>
+<li>Testing functional code is different
 
-<p>Code reviews have a long history in our industry. I think this stems from the old mantra &quot;the cheapest way to remove bugs is to not put them in in the first place.&quot; One way of removing bugs before they are put into  them into our software is to do code reviews. </p>
+<ul>
+<li>Mocking</li>
+<li>Composition</li>
+</ul></li>
+<li>Tooling can be a challenge</li>
+<li>Developers need to be eager to learn</li>
+<li>Developers should appreciate the strengths of F#: immutability, composability, monads etc. If developers are not mature enough to appreciate these things, they may resist.</li>
+</ul>
 
-<p>So, you would think that code reviews were an established part of our craft and that everybody did them. You would think that code reviews were taught at universities. Yet, they are not. Code reviews are not taught at universities, and many teams do not do code reviews.</p>
-
-<p>This is because the number of bugs found by code reviews does not retfærdiggøre the substantial effort that goes into doing proper code reviews. Teams may try out code reviews for a while, but when they pause to evaluate and think about the number of bugs found in, they are likely conclude that code reviews are too costly. And they are probably right.</p>
-
-<p>Doing code reviews to remove bugs is a fallacy! Research by Microsoft shows, that only 15% of review comments pertain to possible bugs in the code.</p>
-
-<p>However, my experience shows that this is not the case at all. 
-They used to be called formal inspections and consist of a large number of people sitting in a meeting reviewing code. These days, code reviews are typically more light weight. </p>
-
-<p>Outline:
-The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
-the cheapest way to remove bugs is not to put them in  in the first place.
-Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.</p>
-
-<p>Code reviews do not find bugs. Thus, they are not worth teaching in universities, where students do not maintain code over extended periods of time.</p>
-
-<p>Sell code reviews!</p>
+<p>May want to see this as well: <a href="https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp">https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp</a> .</p>
 
   </article>
   
@@ -183,23 +225,29 @@ Now, this means that when teams evaluate the benefits of code reviews versus the
   
   <article>
     <h1>
-      <a href="/adopting-fsharp-in-an-enterprise/">Adopting F# in the enterprise</a>
+      <a href="/on-the-result-of-code-reviews/">On the result of code reviews</a>
     </h1>
-    <p>Challenges:</p>
+    <p><em>Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.</em></p>
 
-<ul>
-<li>Testing functional code is different
+<p>Code reviews have a long history in our industry. I think this stems from the old mantra &quot;the cheapest way to remove bugs is to not put them in in the first place.&quot; One way of removing bugs before they are put into  them into our software is to do code reviews. </p>
 
-<ul>
-<li>Mocking</li>
-<li>Composition</li>
-</ul></li>
-<li>Tooling can be a challenge</li>
-<li>Developers need to be eager to learn</li>
-<li>Developers should appreciate the strengths of F#: immutability, composability, monads etc. If developers are not mature enough to appreciate these things, they may resist.</li>
-</ul>
+<p>So, you would think that code reviews were an established part of our craft and that everybody did them. You would think that code reviews were taught at universities. Yet, they are not. Code reviews are not taught at universities, and many teams do not do code reviews.</p>
 
-<p>May want to see this as well: <a href="https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp">https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp</a> .</p>
+<p>This is because the number of bugs found by code reviews does not retfærdiggøre the substantial effort that goes into doing proper code reviews. Teams may try out code reviews for a while, but when they pause to evaluate and think about the number of bugs found in, they are likely conclude that code reviews are too costly. And they are probably right.</p>
+
+<p>Doing code reviews to remove bugs is a fallacy! Research by Microsoft shows, that only 15% of review comments pertain to possible bugs in the code.</p>
+
+<p>However, my experience shows that this is not the case at all. 
+They used to be called formal inspections and consist of a large number of people sitting in a meeting reviewing code. These days, code reviews are typically more light weight. </p>
+
+<p>Outline:
+The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
+the cheapest way to remove bugs is not to put them in  in the first place.
+Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.</p>
+
+<p>Code reviews do not find bugs. Thus, they are not worth teaching in universities, where students do not maintain code over extended periods of time.</p>
+
+<p>Sell code reviews!</p>
 
   </article>
   

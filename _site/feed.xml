@@ -1,130 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.0.2">Jekyll</generator><link href="http://maintainablecode.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://maintainablecode.com/" rel="alternate" type="text/html" /><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/</id><title>Maintainable Code</title><subtitle>In search of</subtitle><entry><title>Rallying the team</title><link href="http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/" rel="alternate" type="text/html" title="Rallying the team" /><published>2016-04-21T16:33:29+02:00</published><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/values-principles-and-practices-of-maintainable-code</id><content type="html" xml:base="http://maintainablecode.com/values-principles-and-practices-of-maintainable-code/">&lt;p&gt;&lt;em&gt;How do you make a team produce maintainable code? Let values drive your  principles and practices&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://maintainablecode.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://maintainablecode.com/" rel="alternate" type="text/html" /><updated>2016-09-08T08:07:00+02:00</updated><id>http://maintainablecode.com/</id><title>Maintainable Code</title><subtitle>In search of</subtitle><entry><title>A searchable link collection for code reviews</title><link href="http://maintainablecode.com/a-searchable-link-collection-for-code-reviews/" rel="alternate" type="text/html" title="A searchable link collection for code reviews" /><published>2016-06-08T00:00:00+02:00</published><updated>2016-06-08T00:00:00+02:00</updated><id>http://maintainablecode.com/a-searchable-link-collection-for-code-reviews</id><content type="html" xml:base="http://maintainablecode.com/a-searchable-link-collection-for-code-reviews/">&lt;p&gt;When doing code reviews I find myself referring to a lot of &amp;quot;authoritative&amp;quot; sources for 
+information on design patterns, principles, practices, code smells, etc. To avoid having 
+to paraphrase these sources in my code reviews, I provide links straight to the source itself.&lt;/p&gt;
 
-&lt;p&gt;Consistently producing maintainable code is hard. Many factors work against you:
-- time pressure
-- eager and bold new developers
-- plain laziness&lt;/p&gt;
+&lt;p&gt;Looking up these sources takes time and requires a mental context switch during the code review. 
+To alleviate this I use a searchable collection of links: &lt;a href=&quot;http://review.maintainablecode.com&quot;&gt;http://review.maintainablecode.com&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Time pressure and plain laziness will encourage developers to make short cuts. New developers may not fully understand the application architecture and will produce code and dependencies that violate that architecture. It takes just a moment of inattention for code rot to creep in, and once that is in, the Broken Windows Syndrome makes it likely to spread.&lt;/p&gt;
-
-&lt;p&gt;So, how do you make the team pay attention to maintainable code, all the time?&lt;/p&gt;
-
-&lt;p&gt;You need 
-First off, you define &lt;em&gt;maintainable code&lt;/em&gt; as a core value, and you articulate this to the team and to management. Next, you derive principles from this value. Eventually, you &lt;/p&gt;
-
-&lt;p&gt;Writing maintainable code is a continuous effort. Time pressure, eager new developers and plain laziness are all forces that tear at the code.&lt;/p&gt;
-
-&lt;p&gt;NOTE: find motivating example in literature or history - when has somebody let values define their principles and practices and lead their peers through that?&lt;/p&gt;
-
-&lt;p&gt;Articulating maintainability as a value means that you can derive your principles and practices from this.
-Values can and should be discussed and defined in cooperation with the business.&lt;/p&gt;
-
-&lt;p&gt;I recently drew up the Developer&amp;#39;s Creed for the development team at a client. It went something like this:&lt;/p&gt;
-
-&lt;h3 id=&quot;values&quot;&gt;Values&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We value an uninterrupted and bug free service.&lt;/li&gt;
-&lt;li&gt;We value long term productivity.&lt;/li&gt;
-&lt;li&gt;We value maintainability.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;principles&quot;&gt;Principles&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We err on the side of caution.&lt;/li&gt;
-&lt;li&gt;We strive for backwards compatibility.&lt;/li&gt;
-&lt;li&gt;Less code is better, because code is a liability, not an asset.&lt;/li&gt;
-&lt;li&gt;We strive for composable, side-effect free units of functionality.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;practices&quot;&gt;Practices&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;TDD, unit test pretty much everything.&lt;/li&gt;
-&lt;li&gt;All changes are peer reviewed.&lt;/li&gt;
-&lt;li&gt;Deployed services are heavily monitored.&lt;/li&gt;
-&lt;li&gt;We do continuous delivery.&lt;/li&gt;
-&lt;/ul&gt;</content><summary>How do you make a team produce maintainable code? Let values drive your  principles and practices.</summary></entry><entry><title>Value objects reduce cognitive load</title><link href="http://maintainablecode.com/value-objects-reduce-cognitive-load/" rel="alternate" type="text/html" title="Value objects reduce cognitive load" /><published>2016-04-21T16:33:29+02:00</published><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/value-objects-reduce-cognitive-load</id><content type="html" xml:base="http://maintainablecode.com/value-objects-reduce-cognitive-load/">&lt;p&gt;I read an article once about how much information is inerrable from the type of a function??&lt;/p&gt;</content><category term="out" /><category term="of" /><category term="the" /><category term="tar" /><category term="pit" /><summary>I read an article once about how much information is inerrable from the type of a function??</summary></entry><entry><title>On the result of code reviews</title><link href="http://maintainablecode.com/on-the-result-of-code-reviews/" rel="alternate" type="text/html" title="On the result of code reviews" /><published>2016-04-21T16:33:29+02:00</published><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/on-the-result-of-code-reviews</id><content type="html" xml:base="http://maintainablecode.com/on-the-result-of-code-reviews/">&lt;p&gt;&lt;em&gt;Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Code reviews have a long history in our industry. I think this stems from the old mantra &amp;quot;the cheapest way to remove bugs is to not put them in in the first place.&amp;quot; One way of removing bugs before they are put into  them into our software is to do code reviews. &lt;/p&gt;
-
-&lt;p&gt;So, you would think that code reviews were an established part of our craft and that everybody did them. You would think that code reviews were taught at universities. Yet, they are not. Code reviews are not taught at universities, and many teams do not do code reviews.&lt;/p&gt;
-
-&lt;p&gt;This is because the number of bugs found by code reviews does not retfærdiggøre the substantial effort that goes into doing proper code reviews. Teams may try out code reviews for a while, but when they pause to evaluate and think about the number of bugs found in, they are likely conclude that code reviews are too costly. And they are probably right.&lt;/p&gt;
-
-&lt;p&gt;Doing code reviews to remove bugs is a fallacy! Research by Microsoft shows, that only 15% of review comments pertain to possible bugs in the code.&lt;/p&gt;
-
-&lt;p&gt;However, my experience shows that this is not the case at all. 
-They used to be called formal inspections and consist of a large number of people sitting in a meeting reviewing code. These days, code reviews are typically more light weight. &lt;/p&gt;
-
-&lt;p&gt;Outline:
-The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
-the cheapest way to remove bugs is not to put them in  in the first place.
-Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.&lt;/p&gt;
-
-&lt;p&gt;Code reviews do not find bugs. Thus, they are not worth teaching in universities, where students do not maintain code over extended periods of time.&lt;/p&gt;
-
-&lt;p&gt;Sell code reviews!&lt;/p&gt;</content><summary>Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think.</summary></entry><entry><title>It&amp;#39;s the little things</title><link href="http://maintainablecode.com/it-is-all-the-little-things/" rel="alternate" type="text/html" title="It&#39;s the little things" /><published>2016-04-21T16:33:29+02:00</published><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/it-is-all-the-little-things</id><content type="html" xml:base="http://maintainablecode.com/it-is-all-the-little-things/">&lt;p&gt;&lt;em&gt;Low level code quality matters way more than your architectural style. When your code base is turning into an alienated stranger, an unmaintainable pulp, and you are itching to rewrite the whole thing, stop. Salvation may be much closer and less risky than you think&lt;/em&gt;. &lt;/p&gt;
-
-&lt;p&gt;Have you ever had the feeling that, after toiling with a code base for 6-12 months, the code base has not turned into the beautiful thing you set out to build? You had the best intentions and swore that &lt;em&gt;this time&lt;/em&gt;, it was going to be different. Still, as you look at the code base now, it has scars and warts. You are no longer confident when making changes - heck, maybe you don&amp;#39;t even really trust the code base. And every time you touch a piece of it, you think &amp;quot;this thing really needs to be refactored&amp;quot;.&lt;/p&gt;
-
-&lt;p&gt;So, you take the plunge. You start rewriting the whole thing. You put in long hours. You are spewing code, and you are one with the code. You change the architecture to the latest fad. You upgrade all your tools, frameworks, and libraries. For a while, you love the code again, and it loves you. &lt;/p&gt;
-
-&lt;p&gt;You know what is coming, don&amp;#39;t you? &lt;/p&gt;
-
-&lt;p&gt;After a while, you start to have doubts. You have had to make a few compromises. The code is becoming harder to understand than you had anticipated. Maybe the architectural style you chose doesn&amp;#39;t fit your application as well as you had been lead to believe? Changes are taking longer and longer because the code is becoming an entangled, brittle mess. Again. You are back where you started.&lt;/p&gt;
-
-&lt;p&gt;So, what happened? How could it have come to this?&lt;/p&gt;
-
-&lt;p&gt;You changed the tools, you changed the frameworks, and you changed the libraries. You changed the architecture. You probably introduced more automated tests. Maybe you even changed the programming language. What is left? You.&lt;/p&gt;
-
-&lt;p&gt;What you probably did not change is the way you write code. You did not change the level of attention you pay to detail. You did not become more critical of your own code.&lt;/p&gt;
-
-&lt;p&gt;Yet, this is exactly what is needed. &lt;/p&gt;
-
-&lt;p&gt;Unless your initial choice of programming language was &lt;a href=&quot;https://en.wikipedia.org/wiki/Brainfuck&quot;&gt;brainfuck&lt;/a&gt;, chances are that others have had great success with this language. Your pick of tools, frameworks and libraries were probably fine. Your architectural style is overrated. You can do a &lt;a href=&quot;https://en.wikipedia.org/wiki/Multilayered_architecture&quot;&gt;Multilayered Architecture&lt;/a&gt;, a &lt;a href=&quot;https://vimeo.com/131633177&quot;&gt;Sliced Architecture&lt;/a&gt;, a &lt;a href=&quot;http://alistair.cockburn.us/Hexagonal+architecture&quot;&gt;Hexagonal Architecture&lt;/a&gt;, or an &lt;a href=&quot;http://jeffreypalermo.com/blog/the-onion-architecture-part-1/&quot;&gt;Onion Architecture&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It all doesn&amp;#39;t matter one iota if you do not pay attention to the individual characters on your screen that make up your code. You must care for your code blocks, just like an author cares for and nurtures the sentences he produces.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;quot;We have to keep it crisp, disentangled, and simple if we refuse to be crushed by the complexities of our own making&amp;quot; - Dijkstra&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Does your code suffer from any of these code smells:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;objects are mutable for no good reason.&lt;/li&gt;
-&lt;li&gt;the most prevalent data types in use are integers and strings (&lt;a href=&quot;http://c2.com/cgi/wiki?PrimitiveObsession&quot;&gt;primitive obsession&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;objects that represent a value (a point, an address, a score) have reference equality semantics.&lt;/li&gt;
-&lt;li&gt;some methods consider &lt;code&gt;null&lt;/code&gt; a valid argument while others do not.&lt;/li&gt;
-&lt;li&gt;naming is sloppy and inconsistent.&lt;/li&gt;
-&lt;li&gt;formatting is sloppy and inconsistent.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The effect of each of these code smells may seem benign. Heck, what does it matter if that &lt;code&gt;Address&lt;/code&gt; type is just a bunch of public getters and setters? What does it matter if we use &lt;code&gt;string&lt;/code&gt; to represent an order reference number? That code block is not properly indented. So what?&lt;/p&gt;
-
-&lt;p&gt;Well, every time you introduce (or neglect to remove) one of these code smells, you are putting more &lt;a href=&quot;https://en.wikipedia.org/wiki/Cognitive_load&quot;&gt;cognitive load&lt;/a&gt; on the Code Reader. The compounding effect of all these little things can be enormous. Even if &lt;em&gt;you&lt;/em&gt; know that the code is working perfectly, the &lt;em&gt;Code Reader&lt;/em&gt; (who might, after all, be you in a couple of weeks) will be spending precious mental resources wondering whether some distant part of the program could possibly change the value of that &lt;code&gt;Address&lt;/code&gt;, or whether that order reference number could, in some obscure scenario, be &lt;code&gt;null&lt;/code&gt; and if that is a valid value.&lt;/p&gt;
-
-&lt;p&gt;By fixing these code smells, you free up mental resources. You will be able to keep larger portions of the code in your mind at one time. As a consequence, you will start having more confidence in the code and implementing changes and solving problems will require much less effort.&lt;/p&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Before you decide that your code base needs fundamental rewriting and that your tools and architecture need to be killed off, take a long, hard look at the low level quality of your code. You may very well be able to get back to a crisp, disentangled, and simple code base just by rectifying the quality of your code at the very low level. There is no demand to pause development. Rectifying the code from the ground up can be done in small, incremental steps while stile fixing bugs and delivering new features. In fact, improving your code base from the ground up should be part of your daily routine.&lt;/p&gt;</content><category term="out" /><category term="of" /><category term="the" /><category term="tar" /><category term="pit" /><summary>Low level code quality matters way more than your architectural style. When your code base is turning into an alienated stranger, an unmaintainable pulp, and you are itching to rewrite the whole thing, stop. Salvation may be much closer and less risky than you think.</summary></entry><entry><title>Adopting F# in the enterprise</title><link href="http://maintainablecode.com/adopting-fsharp-in-an-enterprise/" rel="alternate" type="text/html" title="Adopting F# in the enterprise" /><published>2016-04-21T16:33:29+02:00</published><updated>2016-04-21T16:33:29+02:00</updated><id>http://maintainablecode.com/adopting-fsharp-in-an-enterprise</id><content type="html" xml:base="http://maintainablecode.com/adopting-fsharp-in-an-enterprise/">&lt;p&gt;Challenges:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Testing functional code is different
-
-&lt;ul&gt;
-&lt;li&gt;Mocking&lt;/li&gt;
-&lt;li&gt;Composition&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Tooling can be a challenge&lt;/li&gt;
-&lt;li&gt;Developers need to be eager to learn&lt;/li&gt;
-&lt;li&gt;Developers should appreciate the strengths of F#: immutability, composability, monads etc. If developers are not mature enough to appreciate these things, they may resist.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;May want to see this as well: &lt;a href=&quot;https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp&quot;&gt;https://skillsmatter.com/skillscasts/7430-enterprise-f-sharp&lt;/a&gt; .&lt;/p&gt;</content><category term="functional" /><summary>Challenges:</summary></entry><entry><title>Interactive code reviews are a waste</title><link href="http://maintainablecode.com/interactive-code-reviews-are-a-waste/" rel="alternate" type="text/html" title="Interactive code reviews are a waste" /><published>2016-01-23T00:00:00+01:00</published><updated>2016-01-23T00:00:00+01:00</updated><id>http://maintainablecode.com/interactive-code-reviews-are-a-waste</id><content type="html" xml:base="http://maintainablecode.com/interactive-code-reviews-are-a-waste/">&lt;p&gt;Code reviews have been around at least since the late &amp;#39;70s. These days, most software development teams worth their salt do code reviews. However, not all code reviews were created equal, and one particularly prevalent type is worthless at best.&lt;/p&gt;
+&lt;p&gt;Feel free to send me a link if you would like to have something added to the collection.&lt;/p&gt;</content><summary>When doing code reviews I find myself referring to a lot of &amp;quot;authoritative&amp;quot; sources for 
+information on design patterns, principles, practices, code smells, etc. To avoid having 
+to paraphrase these sources in my code reviews, I provide links straight to the source itself.</summary></entry><entry><title>Interactive code reviews are a waste</title><link href="http://maintainablecode.com/interactive-code-reviews-are-a-waste/" rel="alternate" type="text/html" title="Interactive code reviews are a waste" /><published>2016-01-23T00:00:00+01:00</published><updated>2016-01-23T00:00:00+01:00</updated><id>http://maintainablecode.com/interactive-code-reviews-are-a-waste</id><content type="html" xml:base="http://maintainablecode.com/interactive-code-reviews-are-a-waste/">&lt;p&gt;Code reviews have been around at least since the late &amp;#39;70s. These days, most software development teams worth their salt do code reviews. However, not all code reviews were created equal, and one particularly prevalent type is worthless at best.&lt;/p&gt;
 
 &lt;p&gt;The type of code review I have seen the most is what I like to call the &amp;quot;interactive&amp;quot; code review. Here, the author and the reviewer sit down together to go through the code. If they are co-located, the review will often take place at the author&amp;#39;s desk. Otherwise, it might be facilitated by video conferencing software. While this is typically a speedy process, the interactive code review process has a number of drawbacks, that I would like to highlight:&lt;/p&gt;
 
