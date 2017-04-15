@@ -18,7 +18,7 @@ So, what happened? How could it have come to this?
 
 You changed the tools, you changed the frameworks, and you changed the libraries. You changed the architecture. You probably introduced more automated tests. Maybe you even changed the programming language.
 
-What you probably did not change is the way you write code. You did not change the level of attention you pay to detail. You did not become more critical of your own code. You must care for your code blocks just like a poet cares for and nurtures the sentences he produces. If you don't, you are likely to keep introducing a number of code smells:
+What you probably did not change is the way you write code. You did not change the level of attention you pay to detail. You did not become more critical of your own code. Unfortunately, this means that you are likely to keep introducing a number of trivial code smells:
 
 - Objects are mutable for no good reason.
 - Use of primitive integers and strings are prevalent ([primitive obsession](http://c2.com/cgi/wiki?PrimitiveObsession)).
