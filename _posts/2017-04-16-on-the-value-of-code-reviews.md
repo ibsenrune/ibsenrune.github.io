@@ -20,7 +20,7 @@ How do we measure these benefits? In my experience, there are two popular approa
 Now, if a team is building software for space ships, then finding bugs is very valuable and they are likely to conclude that code reviews are a great tool. However, most teams write applications that are slightly more mundane, where occasional bugs are tolerated. Thus, the latter teams are likely to conclude that code reviews are too costly.
 
 ## Code reviews are about more than bugs
-Doing code reviews mainly to remove bugs is a fallacy. [Research](http://dl.acm.org/citation.cfm?id=2819015) shows that only 15% of review comments pertain to possible bugs in the code. The rest of the review comments are about pointing out opportunities for improving clarity and readability to ensure long-term maintainability.
+Doing code reviews mainly to remove bugs is a fallacy. [Research](http://dl.acm.org/citation.cfm?id=2819015) shows that only 15% of review comments pertain to possible bugs in the code. The rest of the review comments point out opportunities for improving clarity and readability to ensure long-term maintainability.
 
 The value of improved readability alone is enormous, since reading and understanding the existing code is a prerequisite for making any sort of changes, be they bug fixes or new features. Long-term maintainability is vital as well because it helps avoid costly rewrites.
 
