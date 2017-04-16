@@ -13,7 +13,7 @@ For some teams, it may not be a conscious choice not to have code reviews. Most 
 
 Other teams consciously decide to omit code reviews because they do not consider them worth the effort. 
 
-Code reviews certainly require effort, and for them to be effective, they require substantial effort. A team that tries to adopt code reviews as part of the development process realises this very quickly. So, the benefits that such reviews provide must be equally substantial, or they will be a waste of time.
+Code reviews certainly require effort, and for them to be effective, they require substantial effort (a team that tries to adopt code reviews as part of the development process realises this very quickly). So, the benefits that such reviews provide must be equally substantial, or they will be a waste of time.
 
 How do we measure these benefits? In my experience, there are two popular approaches to doing this: if a team is very serious about improving their development process, they will try out code reviews for a fixed time period. At the end, they will _count the bugs found in reviews_ and equate that to the benefit of the reviews. Teams less hell-bent on gathering empirical data may count all the bugs that have been identified in their software in the last year (in production, though testing, or otherwise) and consider the identification of these bugs an upper bound on the benefit of code reviews, since code reviews _might_ have identified these bugs earlier.
 
