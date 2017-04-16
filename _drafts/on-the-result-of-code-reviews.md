@@ -1,27 +1,30 @@
 ---
 layout: post
-title: On the result of code reviews
+title: On the value of code reviews
+tags: code review
 ---
 
-_Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what they think._
+_Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what the team thinks._
 
-Code reviews have a long history in our industry. I think this stems from the old mantra "the cheapest way to remove bugs is to not put them in in the first place." One way of removing bugs before they are put into  them into our software is to do code reviews. 
+As software developers, we strive every day to write code that is free from bugs. One thing that obviously helps avoid bugs is to do code reviews: whenever someone has authored a piece of code, someone else reviews it before it goes into the code base. Yet, few teams have code reviews as a core part of their development process. Why is that?
 
-So, you would think that code reviews were an established part of our craft and that everybody did them. You would think that code reviews were taught at universities. Yet, they are not. Code reviews are not taught at universities, and many teams do not do code reviews.
+## Why would you omit code reviews?
+For some teams, it may not be a conscious choice not to have code reviews. Most schools do not include code reviews in the development process they teach, and since few teams do them, you can easily spend quite a few years in the industry without encountering code reviews. Thus, teams may omit code reviews solely because it does not occur to anybody on the team that reviews might be a thing, let alone that they might be worth the effort.
 
-This is because the number of bugs found by code reviews does not retfærdiggøre the substantial effort that goes into doing proper code reviews. Teams may try out code reviews for a while, but when they pause to evaluate and think about the number of bugs found in, they are likely conclude that code reviews are too costly. And they are probably right.
+Other teams consciously decide to omit code reviews because they do not consider them worth the effort. 
 
-Doing code reviews to remove bugs is a fallacy! Research by Microsoft shows, that only 15% of review comments pertain to possible bugs in the code.
+Code reviews certainly require effort, and for them to be effective, they require substantial effort. A team that tries to adopt code reviews as part of the development process realises this very quickly. So, the benefits that such reviews provide must be equally substantial, or they will be a waste of time.
 
- However, my experience shows that this is not the case at all. 
-They used to be called formal inspections and consist of a large number of people sitting in a meeting reviewing code. These days, code reviews are typically more light weight. 
+How do we measure these benefits? In my experience, there are two popular approaches to doing this: if a team is very serious about improving their development process, they will try out code reviews for a fixed time period. At the end, they will _count the bugs found in reviews_ and equate that to the benefit of the reviews. Teams less hell-bent on gathering empirical data may count all the bugs that have been identified in their software in the last year (in production, though testing, or otherwise) and consider the identification of these bugs an upper bound on the benefit of code reviews, since code reviews _might_ have identified these bugs earlier.
 
+Now, if a team is building software for space ships, then finding bugs is very valuable and they are likely to conclude that code reviews are a great tool. However, most teams write applications that are slightly more mundane, where occasional bugs are tolerated. Thus, the latter teams are likely to conclude that code reviews are too costly.
 
-Outline:
-The purpose of the code review is not what you think. Most programmers think that code reviews are performed to catch bugs (Back this up with Microsoft Research Article.). Instead, the real benefit of code reviews is maintainable code. This view of things is supported by the fact (find reference) that 
-the cheapest way to remove bugs is not to put them in  in the first place.
-Now, this means that when teams evaluate the benefits of code reviews versus the drawbacks (a proper code review takes time), they are inclined to count the number of bugs found in code reviews, compare that to the time spent in code reviews and on that basis conclude that code reviews are not worth the effort.
+## Code reviews are about more than bugs
+Doing code reviews mainly to remove bugs is a fallacy. [Research](http://dl.acm.org/citation.cfm?id=2819015) shows that only 15% of review comments pertain to possible bugs in the code. The rest of the review comments are about pointing out opportunities for improving clarity and readability to ensure long-term maintainability.
 
-Code reviews do not find bugs. Thus, they are not worth teaching in universities, where students do not maintain code over extended periods of time.
+The value of improved readability alone is enormous, since reading and understanding the existing code is a prerequisite for making any sort of changes, be they bug fixes or new features. Long-term maintainability is vital as well because it helps avoid costly rewrites.
 
-Sell code reviews!
+Finally, code reviews are a great vehicle for spreading institutional knowledge and sharing tips and tricks. I have on multiple occasions been amazed at how quickly I could add junior developers to very experienced teams and make them productive team members. I attribute a great deal of this success to an efficient code review process. 
+
+## Conclusion
+Code reviews are not only about bugs. When evaluating whether code reviews should be part of your development process, remember that code reviews have other benefits than just identifying bugs. If your team writes code that needs to be reasonably bug-free and maintainable for years, then code reviews should probably be a part of your development process. This is even more true if you occasionally add new team members.
