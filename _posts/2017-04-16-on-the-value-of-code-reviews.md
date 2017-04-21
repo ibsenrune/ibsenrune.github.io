@@ -4,7 +4,12 @@ title: On the value of code reviews
 tags: code review
 ---
 
-_Teams evaluating the pros and cons of code reviews often draw wrong conclusions. This is because the main benefit of code reviews is not what the team thinks._
+_Code reviews provide more benefits than just bug discovery:_
+
+- _code maintainability is vastly improved_
+- _they facilitate knowledge sharing_
+
+_If you write code for the long haul, have code reviews as part of your core development process._
 
 As software developers, we strive every day to write code that is free from bugs. One thing that obviously helps avoid bugs is to do code reviews: whenever someone has authored a piece of code, someone else reviews it before it goes into the code base. Yet, few teams have code reviews as a core part of their development process. Why is that?
 
