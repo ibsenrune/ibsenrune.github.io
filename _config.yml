@@ -54,7 +54,7 @@ baseurl: ""
 #
 
 markdown: kramdown
-highlighter: pygments.rb
+highlighter: route.rb
 permalink: /:title/
 
 redcarpet:
